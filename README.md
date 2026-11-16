@@ -111,6 +111,16 @@ GEMINI_API_KEY=your_api_key_here
 streamlit run app.py
 ```
 
+## Git Ignore
+
+The `.gitignore` file prevents unnecessary and sensitive files from being uploaded to GitHub.
+
+Excluded files:
+- `.env` – API keys and environment variables
+- `myvenv/` – Python virtual environment
+- `__pycache__/` – Python cache files
+- `*.pyc` – Compiled Python files
+
 ## Deployment
 
 The application is deployed using Render.
